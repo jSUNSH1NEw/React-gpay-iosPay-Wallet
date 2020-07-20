@@ -1,0 +1,36 @@
+[
+  {
+    "sku": "DEMO001",
+    "name": "This Pretty Plant",
+    "description": "Look at this pretty plant. Photo by Galina N on Unsplash.",
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=600&h=600&q=80",
+    "amount": 1000,
+    "currency": "USD"
+  },
+  {
+    "sku": "DEMO002",
+    "name": "Adventure Mug",
+    "description": "We’re going on an adventure! Photo by Annie Spratt on Unsplash.",
+    "image": "https://images.unsplash.com/photo-1454329001438-1752daa90420?auto=format&fit=crop&w=600&h=600&q=80",
+    "amount": 1500,
+    "currency": "USD"
+  },
+
+  {
+    "name": "Bananas",
+    "description": "Yummy yellow fruit",
+    "sku": "sku_GBJ2Ep8246qeeT",
+    "price": 400,
+    "image": "https://images.unsplash.com/photo-1574226516831-e1dff420e562?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=225&q=80",
+    "attribution": "Photo by Priscilla Du Preez on Unsplash",
+    "currency": "USD"
+  },
+  {
+    "name": "Tangerines",
+    "sku": "sku_GBJ2WWfMaGNC2Z",
+    "price": 100,
+    "image": "https://images.unsplash.com/photo-1482012792084-a0c3725f289f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=225&q=80",
+    "attribution": "Photo by Jonathan Pielmayer on Unsplash",
+    "currency": "USD"
+  }
+]

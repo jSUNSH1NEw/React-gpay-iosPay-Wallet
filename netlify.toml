@@ -1,3 +1,8 @@
 [build]
 	publish= "public"
 	function = "function"
+
+[template.environment]
+ 	REACT_APP_STRIPE_PUBLISHABLE_KEY = "pk_test_51H6aRDEEooVqnzXddIIb2ZsW0wBwJHA3Y9eB6aB8295RtNM8ruc7BWcbtCPw3ZICaqmDKEuFLhZjehD2QIcFsiY800LSqZudMz"
+  	STRIPE_SECRET_KEY = "sk_test_51H6aRDEEooVqnzXdnfCo0wjT2SrLo7ERKFb1EwGZ9yb7BEYkPxEcwxRR1PZiqOtpodkaGpUFemU9FcJuZ40VaCmH00QA01MynB"
+
