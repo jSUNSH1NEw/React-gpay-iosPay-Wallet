@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import { useShoppingCart, formatCurrencyString } from 'use-shopping-cart';
-import PaymentRequest from '../components/PaymentRequest';
+import PaymentRequest from './PaymentRequest';
 
 const CartSummary = () => {
   const [loading, setLoading] = useState(false);
@@ -18,7 +18,7 @@ const CartSummary = () => {
     event.preventDefault();
     setLoading(true);
 
-    const { sessionId } = await fetch(
+    const sessionId = await fetch(
       '/.netlify/functions/create-checkout-session',
       {
         method: 'post',

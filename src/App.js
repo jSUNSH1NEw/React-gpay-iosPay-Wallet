@@ -1,6 +1,6 @@
 import React from 'react';
 import CartSummary from './components/CartSummary';
-import Products from './components/Products';
+import Products from './components/Product';
 
 import './App.css';
 

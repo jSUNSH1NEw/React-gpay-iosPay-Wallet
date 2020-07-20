@@ -2,10 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { useShoppingCart } from 'use-shopping-cart';
 
-import {
-  PaymentRequestButtonElement,
-  useStripe,
-} from '@stripe/react-stripe-js';
+import { PaymentRequestButtonElement,useStripe }from '@stripe/react-stripe-js';
 
 const PaymentRequest = () => {
   const history = useHistory();

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Success from './Success';
+import Success from './components/Success';
 import * as serviceWorker from './serviceWorker';
 
 import { Elements } from '@stripe/react-stripe-js';
@@ -11,7 +11,6 @@ import { loadStripe } from '@stripe/stripe-js';
 import { CartProvider } from 'use-shopping-cart';
 
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY);
-
 ReactDOM.render(
   <Elements stripe={stripePromise}>
     <CartProvider mode="checkout-session" stripe={stripePromise} currency="USD">
